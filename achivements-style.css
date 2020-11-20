@@ -1,0 +1,84 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0px;
+    
+}
+header{
+    border-style: outset;
+    border-color: #FFFFFF;
+    background-color: #BEE9E8;
+    margin-bottom: 50px;
+}
+    header nav ul{
+        list-style: none;
+        padding: 0px;
+        
+    }
+header nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    
+    
+}
+header nav{
+    margin: auto;
+    width: fit-content;
+    display: block;
+}
+nav a{
+    
+    font-size: 15px;
+    color: #000000;
+    
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.flex-achievements{
+    margin-top: auto;
+    border: solid;
+    border-width: 2px;
+    padding: 50px;
+    margin: auto;
+    width: 80%;
+}
+.row{
+    margin: auto;
+    text-align: center;   
+}
+.awards-container{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.awards-img{
+    display: block;
+    padding: 3px;
+    height: 275px;
+    width: 275px;
+    
+}
+.text-container{
+    margin: auto;
+}
+.flex-achievements h2{
+    margin: auto;
+}
+.text-borders{
+    border-style:groove;
+    border-radius: 15px;
+    margin: 50px;
+}
+.text-borders ul{
+    list-style-type: none;
+    margin: auto;
+}
+.text-borders ul li{
+    
+    text-align: center;
+    padding: 8px;
+    
+}
+    
+    
